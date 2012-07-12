@@ -1,0 +1,20 @@
+<package>
+  <description brief="basic_avi_writer">
+
+      basic_avi_writer - a very simple OpenCV based avi writer node.
+
+      Usage: rosrun basic_avi_writer [image_topic] [filename]
+
+  </description>
+  <author>Will Dickson</author>
+  <license>Apache 2.0</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/basic_avi_writer</url>
+  <depend package="rospy"/>
+  <depend package="opencv2"/>
+  <depend package="cv_bridge"/>
+  <depend package="sensor_msgs"/>
+
+</package>
+
+
