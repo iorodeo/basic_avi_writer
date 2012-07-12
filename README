@@ -1,0 +1,4 @@
+basic_avi_writer
+
+A simple ROS package which implements a single ROS node. avi_writer_node.py. This
+node can be used for saving any ROS image topic as an AVI movie file (mpeg-4 codec). 
