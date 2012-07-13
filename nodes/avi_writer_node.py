@@ -81,6 +81,8 @@ class AVI_Writer(object):
         self.writer = cv.CreateVideoWriter(
                self.filename,
                cv.CV_FOURCC('D','I','V','X'),
+               #cv.CV_FOURCC('U','2','6','3'),
+               #cv.CV_FOURCC('H','2','6','4'),
                self.framerate,
                self.cv_image_size,
                ) 
